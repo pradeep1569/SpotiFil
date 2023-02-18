@@ -32,3 +32,15 @@ Deploying Spotifil...
 Spotifil deployed to: 0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b
 ```
 
+## Video
+<a href="https://www.loom.com/share/9082e14f45914cf48a1b41c334aee3b6"><h4>Loom:</h4>  https://www.loom.com/share/9082e14f45914cf48a1b41c334aee3b6</a>
+<a href="./assets/Spotifil.mp4"><h4 style="color:red">Download</h4></a>
+
+
+## Images
+
+<img src="./assets/5.png">
+<img src="./assets/4.png">
+<img src="./assets/1.png">
+<img src="./assets/2.png">
+<img src="./assets/3.png">
