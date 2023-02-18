@@ -48,6 +48,15 @@ contract Spotifil {
         collection[_id].collectionName = _collectionName;
     }
 
+    function updateCollectionSong(
+        uint256 _id,
+        uint256 _songId,
+        ISong memory _song
+    ) public {
+        require(owner == msg.sender, "Only Owner Can Access");
+        collection[_id].songs[_songId] = _song;
+    }
+
     function getAllCollections() public view returns (ICollection[] memory) {
         return collections;
     }
