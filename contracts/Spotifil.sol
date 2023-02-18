@@ -37,6 +37,11 @@ contract Spotifil {
         counter++;
     }
 
+    function updateCollectionImage(uint256 _id, string memory _imageHash) public {
+        require(owner == msg.sender, "Only Owner Can Access");
+        collection[_id].collectionImageHash = _imageHash;
+    }
+
     function getAllCollections() public view returns (ICollection[] memory) {
         return collections;
     }
