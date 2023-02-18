@@ -14,6 +14,15 @@ module.exports = {
             url: "https://api.hyperspace.node.glif.io/rpc/v1",
             accounts: [PRIVATE_KEY],
         },
+        mumbai: {
+            url: process.env.POLYGON_MUMBAI_QUICK_NODE_RPC,
+            accounts: [PRIVATE_KEY]
+        },
+        mantle:{
+            url: "https://rpc.testnet.mantle.xyz",
+            accounts: [PRIVATE_KEY]
+        }
+
     },
     paths: {
         sources: "./contracts",

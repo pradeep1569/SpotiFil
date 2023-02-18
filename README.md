@@ -24,12 +24,32 @@ Play music by songs, album, or your playlists
 ## FEVM Contract Link:
 <a href="https://hyperspace.filfox.info/en/address/0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b"> https://hyperspace.filfox.info/en/address/0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b </a>
 
+## POLYGON MUMBAI Link:
+<a href="https://mumbai.polygonscan.com/address/0x1c5659cd6f83d9b4c97a57c620a87ac281a3eb04">https://mumbai.polygonscan.com/address/0x1c5659cd6f83d9b4c97a57c620a87ac281a3eb04</a>
+
+## Mantle Link:
+<a href="https://explorer.testnet.mantle.xyz/address/0xd53C3fE2Ab82A74cd509169C1fF43d99d5269426">https://explorer.testnet.mantle.xyz/address/0xd53C3fE2Ab82A74cd509169C1fF43d99d5269426</a>
+
+
 ```sh
 C:EthForAll\spotifil-contract>npx hardhat deploy --network hyperspace
 Nothing to compile
 Wallet Ethereum Address: 0x9dbd443B0F8848E2211Cc553eefe0dA65fdAE387
 Deploying Spotifil...
 Spotifil deployed to: 0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b
+
+C:EthForAll\spotifil-contract>npx hardhat deploy --network mantle
+Nothing to compile
+Wallet Ethereum Address: 0x9dbd443B0F8848E2211Cc553eefe0dA65fdAE387
+Deploying Spotifil...
+Spotifil deployed to: 0xd53C3fE2Ab82A74cd509169C1fF43d99d5269426
+
+C:EthForAll\spotifil-contract>npx hardhat deploy --network mumbai
+Nothing to compile
+Wallet Ethereum Address: 0x9dbd443B0F8848E2211Cc553eefe0dA65fdAE387
+Deploying Spotifil...
+Spotifil deployed to: 0x1c5659cd6f83d9b4c97a57c620a87ac281a3eb04
+
 ```
 
 ## Video
