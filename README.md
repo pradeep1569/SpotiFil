@@ -13,10 +13,10 @@ Play music by songs, album, or your playlists
 </li>
 
 ## Tech Stack:
-FEVM
-Angular, Material, TailwindCSS
-Web3.Storage
-IPFS
+<li>FEVM</li>
+<li>Angular, Material, TailwindCSS</li>
+<li>Web3.Storage</li>
+<li>IPFS</li>
 
 
 
@@ -25,7 +25,7 @@ IPFS
 <a href="https://hyperspace.filfox.info/en/address/0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b"> https://hyperspace.filfox.info/en/address/0x5d9433D7E9d1f61f149eF013ef1eCdA7B4f85C7b </a>
 
 ```sh
-C:EthForAll\spotifil-contract>npx hardhat deploy
+C:EthForAll\spotifil-contract>npx hardhat deploy --network hyperspace
 Nothing to compile
 Wallet Ethereum Address: 0x9dbd443B0F8848E2211Cc553eefe0dA65fdAE387
 Deploying Spotifil...
