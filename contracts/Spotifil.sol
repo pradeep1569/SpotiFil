@@ -20,6 +20,7 @@ contract Spotifil {
 
     constructor() {
         counter = 1;
+        owner = msg.sender;
     }
 
     function addCollection(ICollection memory _collection) public {
