@@ -17,7 +17,4 @@ module.exports = async ({ deployments }) => {
     let spotifil = await Spotifil.deploy();
     spotifil = await spotifil.deployed()
     console.log('Spotifil deployed to:', spotifil.address);
-
-
-
 }
