@@ -18,10 +18,6 @@ module.exports = async ({ deployments }) => {
     spotifil = await spotifil.deployed()
     console.log('Spotifil deployed to:', spotifil.address);
 
-    // const Collection = { collectionName: "Nani", collectionImageHash: "https://ipfs.io/ipfs/QmP6uRGJQdWLvBuQinctGFSyKu7hnXq86eN4xyHYX9rH2F", songs: [{ name: "Game", fileURI: "https://ipfs.io/ipfs/QmP6uRGJQdWLvBuQinctGFSyKu7hnXq86eN4xyHYX9rH2F", artist: "Lail" }, { name: "Game", fileURI: "https://ipfs.io/ipfs/QmP6uRGJQdWLvBuQinctGFSyKu7hnXq86eN4xyHYX9rH2F", artist: "Lail" }] }
-
-    // await (await spotifil.addCollection(Collection)).wait()
-
 
 
 }
